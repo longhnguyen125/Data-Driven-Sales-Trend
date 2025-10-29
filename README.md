@@ -63,7 +63,7 @@ Using the `Purchase Address` column, the city name was extracted to analyze regi
 The `Order Date` column was converted to datetime, and the hour was extracted to identify when customers placed orders.
 
 - **Result:** Peak order times were between **10 a.m. and 7 p.m.**  
-- **Insight:** Sales activity rises steadily through the morning, peaking in the early evening.  
+- **Insight:** Sales activity rises steadily through the morning, peaking during lunch and dinner time.  
 - **Recommendation:** The company should display our ads during lunch hours from 11:00 PM to 12:00 PM, as well as 6:00 PM to 7:00 PM. Because those two range of hours are peak time, therefore the customer likely to place order.
         
 *<img width="632" height="470" alt="image" src="https://github.com/user-attachments/assets/c9b352c1-ffff-4e4f-aea8-74508931ff69" />*
