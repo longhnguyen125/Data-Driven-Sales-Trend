@@ -3,110 +3,113 @@
 ## Applying the APPASA Framework  
 *(Ask – Prepare – Process – Analyze – Share – Act)*  
 
-This project follows the framework I learned from **Google Data Analytics Professional Certficate**, where I ultilized the **APPASA** framework to transforming raw sales data into actionable business insights. My analysis leverages Python along with various libraries package like pandas, and visualization libraries to uncover key sales trends across a full year of data and provide recoommendation to the stakeholders.
+This project follows the framework I learned from **Google Data Analytics Professional Certficate**, where I ultilized the **APPASA** framework to transforming raw sales data into actionable business insights. My analysis leverages Python along with various libraries package like pandas, and visualization libraries to uncover key sales trends across a full year of data and provide recoommendations to the stakeholders.
 
 ---
 
-## ASK  
-**Business Task:**  
-To identify meaningful patterns in company sales data that can help management make informed, data-driven decisions about product performance, regional performance, seasonality, and forecasting.
+## PREPARE
+**Data Source**  
+Twelve monthly sales CSV files covering a full year of transactions.  
+Each file includes **order date**, **product name**, **quantity**, **price**, and **purchase address**.
 
-**Key Business Questions:**  
-1. Which products generate the highest revenue and how do they perform over time?  
-2. Which regions or customer segments contribute the most to total sales?  
-3. How do seasonal patterns impact overall sales performance?  
-4. Which marketing campaigns or discounts produce the highest lift in sales?  
-5. How can future sales be forecasted based on historical data?
+**Data Preparation Steps**  
+- Combined all 12 monthly files into a single dataset using `pd.concat()` for comprehensive yearly analysis.  
+- Cleaned the dataset by removing duplicates and handling missing values.  
+- Converted columns to appropriate data types (`Order Date` to datetime, numeric columns to int/float).  
+- Extracted useful information such as month, city, and hour from existing columns.  
+- Created new calculated fields, including `Sales = Quantity * Price`.
 
----
-
-## PREPARE  
-**Data Source:**  
-- 12 individual monthly sales files (CSV format).  
-- Each dataset contains transaction-level information including date, product, quantity, unit price, region, and customer type.  
-
-**Actions Taken:**  
-- All monthly files were **combined using `pd.concat()`** into a single DataFrame named `all_data`.  
-- Duplicates and null values were removed.  
-- Data types were standardized (dates converted using `pd.to_datetime`, numeric columns cast to integers/floats).  
-- Columns renamed for readability and consistency.  
-
-**Purpose:**  
-Creating a single, clean, and consistent dataset to support year-long sales trend analysis.
+This created a clean and consistent dataset ready for analysis.
 
 ---
 
-## PROCESS  
-**Steps Executed:**
-1. **Data Cleaning:** Removed duplicates, missing values, and standardized column formats.  
-2. **Feature Engineering:** Extracted `Month`, `Day`, and `Hour` from the `Order Date` to support time-based analysis.  
-3. **Revenue Calculation:** Added a new column `Sales = Quantity * Price`.  
-4. **Aggregation:** Used `groupby()` to summarize revenue by month, product, and region.  
-5. **Filtering:** Identified top-performing products and outliers using conditional filters.  
+## PROCESS
+**Data Cleaning and Transformation**  
+1. **Merge datasets:** Used `pd.concat()` to combine monthly data.  
+2. **Handle missing data:** Removed rows with null values or incorrect entries.  
+3. **Create calculated fields:** Added total sales column (`Sales = Quantity * Price`).  
+4. **Extract features:**  
+   - `Month` from `Order Date` for monthly trend analysis.  
+   - `City` extracted from `Purchase Address` for geographic comparison.  
+   - `Hour` extracted from `Order Date` for time-based insights.  
+5. **Filter logic:** Removed invalid rows such as “Order Date” text headers within the data.
 
-**Tools and Libraries Used:**  
-`pandas`, `numpy`, `matplotlib`, `seaborn`, `datetime`
-
----
-
-## ANALYZE  
-### 1. Product Performance Over Time  
-- Using `groupby(['Product', 'Month'])`, I identified consistent top-selling items.  
-- Visualization revealed that **Product A** and **Product B** maintained steady sales growth.  
-- Notable dips were observed in **March** and **July**, possibly due to seasonality or reduced promotions.
-
-### 2. Regional and Customer Segment Analysis  
-- Grouped by `Region` and `Customer_Type`, analysis showed that **urban regions** contributed over **60%** of total revenue.  
-- Returning customers had higher purchase frequency and larger basket sizes.  
-- Insights suggest focusing marketing resources on loyal, urban buyers.
-
-### 3. Seasonal Trends  
-- Using `resample('M')` and trend plots, clear **Q4 spikes** were found—indicating strong holiday performance.  
-- Categories like “Gifts” and “Beverages” dominated year-end periods.  
-- Suggests aligning promotions with these seasonal cycles.
-
-### 4. Marketing Campaign Effectiveness  
-- Merged sales and promotion datasets to measure uplift during campaign periods.  
-- Bundle discounts outperformed single-item promotions by 20–25%.  
-- Regression analysis confirmed a positive correlation between discount level and sales increase.
-
-### 5. Forecasting Future Sales  
-- Applied rolling averages and ARIMA modeling to forecast next-quarter sales.  
-- Results indicate a projected **10–15% increase** in total sales if current trends continue.  
-- The forecast supports strategic planning for stock and staffing.
+**Tools Used**  
+Python, pandas, numpy, matplotlib, seaborn, datetime.
 
 ---
 
-## SHARE  
-**Deliverables:**  
-- Jupyter Notebook: contains code, visuals, and step-by-step analysis.  
-- Visualizations: bar charts, line charts, and time-series plots created using `matplotlib` and `seaborn`.  
-- Key Findings: clearly summarized insights addressing each business question.
+## ANALYZE
 
-**Audience:**  
-- Sales management team  
-- Marketing and operations departments  
-- Senior leadership for strategic decision-making
+### 1. Which month had the best sales, and how much revenue did it generate?
+The dataset was grouped by month using `groupby('Month')` and total sales were summed.
 
----
-
-## ACT  
-**Recommended Actions Based on Findings:**  
-1. **Promote high-performing products** during historically slower months.  
-2. **Focus marketing on urban and loyal customer segments.**  
-3. **Increase inventory and staffing in Q4** to meet seasonal demand.  
-4. **Expand bundle discounts** to sustain growth throughout the year.  
-5. **Leverage forecasting insights** for more accurate production and supply chain planning.
+- **Result:** December had the highest sales.  
+- **Revenue:** Approximately **$4.6 million** (example value; replace with your real result).  
+- **Insight:** This spike likely results from increased holiday shopping demand, making Q4 the most profitable quarter.  
+*(Insert your monthly sales bar chart here.)*
 
 ---
 
-## Tools & Technologies  
-- **Language:** Python  
-- **Libraries:** pandas, numpy, matplotlib, seaborn, statsmodels  
-- **Environment:** Jupyter Notebook  
-- **Version Control:** Git & GitHub  
+### 2. Which city achieved the highest sales overall?
+Using the `Purchase Address` column, the city name was extracted to analyze regional performance.
+
+- **Result:** San Francisco generated the highest overall revenue.  
+- **Insight:** The city’s high population density and purchasing power may have contributed to stronger sales.  
+- **Recommendation:** Focus future marketing efforts on high-performing urban areas.  
+*(Insert your city sales bar chart here.)*
 
 ---
 
-## 🏁 Key Takeaway  
-Through the APPASA framework, this project demonstrates the full analytical workflow from defining business problems to producing actionable insights. It showcases my ability to use Python for data preparation, visualization, and storytelling — a critical skill set for any data analyst.
+### 3. What time of day should advertisements be displayed to maximize purchases?
+The `Order Date` column was converted to datetime, and the hour was extracted to identify when customers placed orders.
+
+- **Result:** Peak order times were between **10 a.m. and 7 p.m.**  
+- **Insight:** Sales activity rises steadily through the morning, peaking in the early evening.  
+- **Recommendation:** Schedule online ads and email promotions during these hours to increase conversion rates.  
+*(Insert your hourly sales line plot here.)*
+
+---
+
+### 4. Which products are most often sold together?
+By identifying orders with duplicate `Order ID`s, combinations of products bought together were analyzed using `itertools.combinations` and `Counter`.
+
+- **Result:**  
+  - **iPhone** and **Lightning Charging Cable** were most frequently purchased together.  
+  - **Google Phone** and **USB-C Cable** also appeared often.  
+- **Insight:** Customers tend to buy accessories alongside main products, suggesting strong cross-sell opportunities.  
+- **Recommendation:** Offer bundle deals or “frequently bought together” promotions.  
+*(Insert your product pair chart here.)*
+
+---
+
+### 5. Which product sold the most, and why?
+Product quantities were summed and compared to price per unit to understand demand patterns.
+
+- **Result:** **AAA Batteries (4-pack)** were the most sold item by volume.  
+- **Insight:**  
+  - Lower-priced essential items drive higher quantity sales.  
+  - Products with lower unit prices sell in larger volumes but contribute less to total revenue compared to high-ticket items.  
+- **Recommendation:** Maintain stock availability for frequently purchased, low-cost items while promoting accessories with high profit margins.  
+*(Insert your product quantity bar chart here.)*
+
+---
+
+## SHARE
+**Deliverables**  
+- Jupyter Notebook containing all analysis steps, code, and visualizations.  
+- Graphs and charts clearly showing results for each question.  
+- Summary of key findings and recommendations.
+
+**Intended Audience**  
+Sales management, marketing team, and decision-makers who use data-driven insights to improve strategy.
+
+---
+
+## ACT
+**Recommended Business Actions**  
+1. Prepare for higher sales volume in December and during holiday seasons.  
+2. Target major urban areas like San Francisco for marketing and logistics support.  
+3. Schedule digital advertising during peak hours between 10 a.m. and 7 p.m.  
+4. Create product bundles for popular accessory combinations.  
+5. Keep essential, low-cost items well-stocked and promote high-margin products through cross-selling.
