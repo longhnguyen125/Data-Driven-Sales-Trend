@@ -90,19 +90,16 @@ Product quantities were summed and compared to price per unit to understand dema
 - **Result:** USB-C Charging Cable /  Lightnight Charging Cable / AAA Batteries (4-packs) are the most sold item by volume with over 20,000+ quantities.  
 - **Insight:**  
   - Lower-priced essential items drive higher quantity sales.  
-  - Products with lower unit prices sell in larger volumes but contribute less to total revenue compared to high-ticket items.  
+  - Products with lower unit prices sell in larger volumes but contribute less to total revenue compared to high-ticket items.
+  - Or this could be the quality of the product. 
 - **Recommendation:** Maintain stock availability for frequently purchased, low-cost items while promoting accessories with high profit margins.  
   *<img width="592" height="609" alt="image" src="https://github.com/user-attachments/assets/057821ca-b509-4133-9b36-c456ce9f3849" />*
 
 ---
 
 ## SHARE
-**Deliverables**  
-- Jupyter Notebook containing all analysis steps, code, and visualizations.  
-- Graphs and charts clearly showing results for each question.  
-- Summary of key findings and recommendations.
 
-**Intended Audience**  
+**Audience**  
 Sales management, marketing team, and decision-makers who use data-driven insights to improve strategy.
 
 ---
@@ -110,7 +107,7 @@ Sales management, marketing team, and decision-makers who use data-driven insigh
 ## ACT
 **Recommended Business Actions**  
 1. Prepare for higher sales volume in December and during holiday seasons.  
-2. Target major urban areas like San Francisco for marketing and logistics support.  
-3. Schedule digital advertising during peak hours between 10 a.m. and 7 p.m.  
-4. Create product bundles for popular accessory combinations.  
-5. Keep essential, low-cost items well-stocked and promote high-margin products through cross-selling.
+2. Target major urban areas like San Francisco for marketing and logistics support. 
+3. Schedule digital advertising during peak hours during lunch time (11 AM to 12 PM) and dinner time (7 PM to 8 PM).  
+4. Create product bundles for popular accessory combine with least selling product. By doing so, the company can save inventory cost while increasing revenue.
+5. Maintain stock availability for frequently purchased, low-cost items while promoting accessories with high profit margins.
