@@ -6,6 +6,17 @@
 This project follows the framework I learned from **Google Data Analytics Professional Certficate**, where I ultilized the **APPASA** framework to transforming raw sales data into actionable business insights. My analysis leverages Python along with various libraries package like pandas, and visualization libraries to uncover key sales trends across a full year of data and provide recoommendations to the stakeholders.
 
 ---
+## ASK
+
+Here is the five questions that the company would like to know:
+1. Which month has the best sales? How much does it earn?
+2. What city has the best sales?
+3. What time should we display advertisement to maximize the likelihood of customer's buying our product?
+4. What products are most often sold together?
+5. What kind of product sold the most? Why is it?
+
+
+
 
 ## PREPARE
 **Data Source**  
