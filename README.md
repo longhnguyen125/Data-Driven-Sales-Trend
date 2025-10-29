@@ -87,12 +87,12 @@ Each `Order ID` represents a single transaction, so if multiple items share the 
 ### 5. Which product sold the most, and why?
 Product quantities were summed and compared to price per unit to understand demand patterns.
 
-- **Result:** **AAA Batteries (4-pack)** were the most sold item by volume.  
+- **Result:** USB-C Charging Cable /  Lightnight Charging Cable / AAA Batteries (4-packs) are the most sold item by volume with over 20,000+ quantities.  
 - **Insight:**  
   - Lower-priced essential items drive higher quantity sales.  
   - Products with lower unit prices sell in larger volumes but contribute less to total revenue compared to high-ticket items.  
 - **Recommendation:** Maintain stock availability for frequently purchased, low-cost items while promoting accessories with high profit margins.  
-  *ssss*
+  *<img width="592" height="609" alt="image" src="https://github.com/user-attachments/assets/057821ca-b509-4133-9b36-c456ce9f3849" />*
 
 ---
 
