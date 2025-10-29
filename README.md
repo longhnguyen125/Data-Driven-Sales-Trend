@@ -17,31 +17,31 @@
 
 **Analysis & Insights:**
 
-**1️⃣ Product Performance Over Time**  
+**1. Product Performance Over Time**  
 Using pandas `groupby()` and visualization tools like `matplotlib` and `seaborn`, I identified top-performing products by monthly revenue.  
 - Products A and B consistently led in total sales.  
 - Notable dips in March and July suggest potential seasonal effects.  
 *(Insert your code screenshot and visualization here.)*
 
-**2️⃣ Regional and Customer Segment Analysis**  
+**2. Regional and Customer Segment Analysis**  
 By grouping data by `region` and `customer_type`, I found that urban customers contributed to over 60% of total sales.  
 - Returning customers showed higher average order value.  
 - This insight helps prioritize marketing and distribution resources.  
 *(Insert screenshot of your regional analysis chart.)*
 
-**3️⃣ Seasonal Sales Trends**  
+**3. Seasonal Sales Trends**  
 Using time-based aggregation (`resample('M')`), clear seasonal peaks were found in Q4.  
 - Categories like “Gifts” and “Beverages” performed best during holidays.  
 - These insights can inform future promotional scheduling.  
 *(Insert your trend chart screenshot here.)*
 
-**4️⃣ Marketing Campaign Effectiveness**  
+**4. Marketing Campaign Effectiveness**  
 I merged campaign and sales datasets to evaluate uplift during promotional periods.  
 - Campaigns with combo discounts yielded 20–25% higher sales.  
 - Regression analysis confirmed a positive correlation between discounts and sales increase.  
 *(Insert your code and regression result screenshots.)*
 
-**5️⃣ Sales Forecasting**  
+**5. Sales Forecasting**  
 Using rolling averages and ARIMA modeling, future quarterly sales were projected.  
 - Forecast predicts 10–15% growth in key products.  
 - These projections support strategic planning for inventory and staffing.  
