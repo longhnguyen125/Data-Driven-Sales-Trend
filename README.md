@@ -76,7 +76,7 @@ Each `Order ID` represents a single transaction, so if multiple items share the 
   - **iPhone** and **Lightning Charging Cable** were most frequently purchased together.  
   - **Google Phone** and **USB-C Cable** also appeared often.  
 - **Insight:** Customers tend to buy accessories alongside main products, suggesting strong cross-sell opportunities.  
-- **Recommendation:** Offer bundle deals or “frequently bought together” promotions.  
+- **Recommendation:** In order to maximize our revenue, and reduce the number of items left over in inventory, I believe the management should combine and sell most selling product with least selling product at a discount price.  
   *<img width="454" height="217" alt="image" src="https://github.com/user-attachments/assets/0120bb34-9668-4934-8167-7ee14bc9dfed" />*
 
 ---
