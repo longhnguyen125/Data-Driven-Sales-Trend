@@ -50,7 +50,7 @@ The dataset was grouped by month using `groupby('Month')` and total sales were s
 ### 2. Which city achieved the highest sales overall?
 Using the `Purchase Address` column, the city name was extracted to analyze regional performance.
 
-- **Result:** San Francisco generated the highest overall revenue.  
+- **Result:** San Francisco generated the highest overall revenue. Follow-up by Los Angeles, then New York City. 
 - **Insight:** The city’s high population density and purchasing power may have contributed to stronger sales.  
 - **Recommendation:** Focus future marketing efforts on high-performing urban areas.  
 *<img width="632" height="500" alt="image" src="https://github.com/user-attachments/assets/9b2461c1-9e2c-4be3-a144-21f3d0bdf997" />*
@@ -62,8 +62,9 @@ The `Order Date` column was converted to datetime, and the hour was extracted to
 
 - **Result:** Peak order times were between **10 a.m. and 7 p.m.**  
 - **Insight:** Sales activity rises steadily through the morning, peaking in the early evening.  
-- **Recommendation:** Schedule online ads and email promotions during these hours to increase conversion rates.  
-*<img width="868" height="531" alt="image" src="https://github.com/user-attachments/assets/3c083edb-3b9e-4a4e-a69d-8b58429d0478" />*
+- **Recommendation:** The company should display our ads during lunch hours from 11:00 PM to 12:00 PM, as well as 6:00 PM to 7:00 PM. Because those two range of hours are peak time, therefore the customer likely to place order.
+        
+*<img width="632" height="470" alt="image" src="https://github.com/user-attachments/assets/c9b352c1-ffff-4e4f-aea8-74508931ff69" />*
 
 ---
 
