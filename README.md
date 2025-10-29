@@ -45,7 +45,7 @@ Python, pandas, numpy, matplotlib, seaborn, datetime.
 The dataset was grouped by month using `groupby('Month')` and total sales were summed.
 
 - **Result:** December had the highest sales.  
-- **Revenue:** Approximately **$4.6 million** (example value; replace with your real result).  
+- **Revenue:** Approximately **$4.6 million**.  
 - **Insight:** This spike likely results from increased holiday shopping demand, making Q4 the most profitable quarter.  
   *<img width="617" height="478" alt="image" src="https://github.com/user-attachments/assets/d78c2a69-a6e8-4c8b-ae40-078b681b439e" />*
 
