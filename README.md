@@ -33,9 +33,6 @@ This created a clean and consistent dataset ready for analysis.
    - `City` extracted from `Purchase Address` for geographic comparison.  
    - `Hour` extracted from `Order Date` for time-based insights.  
 
-**Tools Used**  
-Python, pandas, numpy, matplotlib, seaborn, datetime.
-
 ---
 
 ## ANALYZE
