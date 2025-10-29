@@ -3,7 +3,7 @@
 ## Applying the APPASA Framework  
 *(Ask – Prepare – Process – Analyze – Share – Act)*  
 
-This project follows the **Google Data Analytics professional framework**, transforming raw sales data into actionable business insights. The analysis leverages Python, pandas, and visualization libraries to uncover key sales trends across a full year of data.
+This project follows the framework I learned from **Google Data Analytics Professional Certficate**, where I ultilized the **APPASA** framework to transforming raw sales data into actionable business insights. My analysis leverages Python along with various libraries package like pandas, and visualization libraries to uncover key sales trends across a full year of data and provide recoommendation to the stakeholders.
 
 ---
 
