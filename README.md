@@ -67,8 +67,7 @@ The `Order Date` column was converted to datetime, and the hour was extracted to
 - **Result:** Peak order times were between **10 a.m. and 7 p.m.**  
 - **Insight:** Sales activity rises steadily through the morning, peaking in the early evening.  
 - **Recommendation:** Schedule online ads and email promotions during these hours to increase conversion rates.  
-*<img width="868" height="531" alt="image" src="https://github.com/user-attachments/assets/3c083edb-3b9e-4a4e-a69d-8b58429d0478" />
-*
+*<img width="868" height="531" alt="image" src="https://github.com/user-attachments/assets/3c083edb-3b9e-4a4e-a69d-8b58429d0478" />*
 
 ---
 
