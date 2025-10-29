@@ -32,7 +32,6 @@ This created a clean and consistent dataset ready for analysis.
    - `Month` from `Order Date` for monthly trend analysis.  
    - `City` extracted from `Purchase Address` for geographic comparison.  
    - `Hour` extracted from `Order Date` for time-based insights.  
-5. **Filter logic:** Removed invalid rows such as “Order Date” text headers within the data.
 
 **Tools Used**  
 Python, pandas, numpy, matplotlib, seaborn, datetime.
