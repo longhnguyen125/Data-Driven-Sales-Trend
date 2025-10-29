@@ -42,7 +42,8 @@ The dataset was grouped by month using `groupby('Month')` and total sales were s
 
 - **Result:** December had the highest sales.  
 - **Revenue:** Approximately **$4.6 million**.  
-- **Insight:** This spike likely results from increased holiday shopping demand, making Q4 the most profitable quarter.  
+- **Insight:** This spike likely results from increased holiday shopping demand, making Q4 the most profitable quarter.
+  
   *<img width="617" height="478" alt="image" src="https://github.com/user-attachments/assets/d78c2a69-a6e8-4c8b-ae40-078b681b439e" />*
 
 ---
@@ -52,7 +53,8 @@ Using the `Purchase Address` column, the city name was extracted to analyze regi
 
 - **Result:** San Francisco generated the highest overall revenue. Follow-up by Los Angeles, then New York City. 
 - **Insight:** The city’s high population density and purchasing power may have contributed to stronger sales.  
-- **Recommendation:** Focus future marketing efforts on high-performing urban areas.  
+- **Recommendation:** Focus future marketing efforts on high-performing urban areas.
+  
 *<img width="632" height="500" alt="image" src="https://github.com/user-attachments/assets/9b2461c1-9e2c-4be3-a144-21f3d0bdf997" />*
 
 ---
