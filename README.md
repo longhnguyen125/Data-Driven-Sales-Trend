@@ -69,14 +69,15 @@ The `Order Date` column was converted to datetime, and the hour was extracted to
 ---
 
 ### 4. Which products are most often sold together?
-By identifying orders with duplicate `Order ID`s, combinations of products bought together were analyzed using `itertools.combinations` and `Counter`.
+To find which products customers tend to buy together, I looked for orders that had the same `Order ID`.  
+Each `Order ID` represents a single transaction, so if multiple items share the same `Order ID`, they were bought together.
 
 - **Result:**  
   - **iPhone** and **Lightning Charging Cable** were most frequently purchased together.  
   - **Google Phone** and **USB-C Cable** also appeared often.  
 - **Insight:** Customers tend to buy accessories alongside main products, suggesting strong cross-sell opportunities.  
 - **Recommendation:** Offer bundle deals or “frequently bought together” promotions.  
-*sss*
+  *<img width="454" height="217" alt="image" src="https://github.com/user-attachments/assets/0120bb34-9668-4934-8167-7ee14bc9dfed" />*
 
 ---
 
