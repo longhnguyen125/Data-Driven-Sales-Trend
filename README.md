@@ -57,7 +57,7 @@ Using the `Purchase Address` column, the city name was extracted to analyze regi
 - **Result:** San Francisco generated the highest overall revenue.  
 - **Insight:** The city’s high population density and purchasing power may have contributed to stronger sales.  
 - **Recommendation:** Focus future marketing efforts on high-performing urban areas.  
-*(Insert your city sales bar chart here.)*
+*<img width="632" height="500" alt="image" src="https://github.com/user-attachments/assets/9b2461c1-9e2c-4be3-a144-21f3d0bdf997" />*
 
 ---
 
@@ -67,7 +67,8 @@ The `Order Date` column was converted to datetime, and the hour was extracted to
 - **Result:** Peak order times were between **10 a.m. and 7 p.m.**  
 - **Insight:** Sales activity rises steadily through the morning, peaking in the early evening.  
 - **Recommendation:** Schedule online ads and email promotions during these hours to increase conversion rates.  
-*(Insert your hourly sales line plot here.)*
+*<img width="868" height="531" alt="image" src="https://github.com/user-attachments/assets/3c083edb-3b9e-4a4e-a69d-8b58429d0478" />
+*
 
 ---
 
@@ -79,7 +80,7 @@ By identifying orders with duplicate `Order ID`s, combinations of products bough
   - **Google Phone** and **USB-C Cable** also appeared often.  
 - **Insight:** Customers tend to buy accessories alongside main products, suggesting strong cross-sell opportunities.  
 - **Recommendation:** Offer bundle deals or “frequently bought together” promotions.  
-*(Insert your product pair chart here.)*
+*sss*
 
 ---
 
@@ -91,7 +92,7 @@ Product quantities were summed and compared to price per unit to understand dema
   - Lower-priced essential items drive higher quantity sales.  
   - Products with lower unit prices sell in larger volumes but contribute less to total revenue compared to high-ticket items.  
 - **Recommendation:** Maintain stock availability for frequently purchased, low-cost items while promoting accessories with high profit margins.  
-*(Insert your product quantity bar chart here.)*
+  *ssss*
 
 ---
 
