@@ -103,7 +103,8 @@ Product quantities were summed and compared to price per unit to understand dema
   - Lower-priced essential items drive higher quantity sales.  
   - Products with lower unit prices sell in larger volumes but contribute less to total revenue compared to high-ticket items.
   - Or this could be the quality of the product. 
-- **Recommendation:** Maintain stock availability for frequently purchased, low-cost items while promoting accessories with high profit margins.  
+- **Recommendation:** Maintain stock availability for frequently purchased, low-cost items while promoting accessories with high profit margins.
+  
   *<img width="592" height="609" alt="image" src="https://github.com/user-attachments/assets/057821ca-b509-4133-9b36-c456ce9f3849" />*
 
 ---
