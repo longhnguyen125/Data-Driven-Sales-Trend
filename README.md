@@ -47,8 +47,9 @@ This created a clean and consistent dataset ready for analysis.
 => After concat all twelve months worth of sales data. This is a first look of the dataframe (df):
 <img width="378" height="323" alt="Screenshot 2025-10-29 at 8 07 06 PM" src="https://github.com/user-attachments/assets/7494e5dc-561f-4972-b6b5-9f7ec45d6609" />
 
+<img width="750" height="233" alt="Screenshot 2025-10-29 at 8 10 03 PM" src="https://github.com/user-attachments/assets/bf9fe7c4-e7ea-4c01-b76d-3880ff7badf0" />
 
-<img width="768" height="203" alt="Screenshot 2025-10-29 at 8 07 46 PM" src="https://github.com/user-attachments/assets/5e8c8908-9b22-4424-a655-05a7b66df255" />
+** As a result, the combined dataset contains 186,850 records among with 6 columns.
 
 ---
 
