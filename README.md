@@ -8,7 +8,7 @@ This project follows the framework I learned from **Google Data Analytics Profes
 ---
 ## ASK
 
-Here is the five questions that the company would like to know:
+After a thorough conversation with stakeholders. Here is the five questions that the company would like to know:
 1. Which month has the best sales? How much does it earn?
 2. What city has the best sales?
 3. What time should we display advertisement to maximize the likelihood of customer's buying our product?
