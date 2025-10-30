@@ -112,7 +112,7 @@ Product quantities were summed and compared to price per unit to understand dema
 ## SHARE
 
 **Audience**  
-Sales management, marketing team, and decision-makers who use data-driven insights to improve strategy.
+Sales management, marketing team, and executives.
 
 ---
 
