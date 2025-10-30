@@ -49,7 +49,7 @@ This created a clean and consistent dataset ready for analysis.
 
 <img width="750" height="233" alt="Screenshot 2025-10-29 at 8 10 03 PM" src="https://github.com/user-attachments/assets/bf9fe7c4-e7ea-4c01-b76d-3880ff7badf0" />
 
-The combined dataset contains 186,850 records and 6 columns.
+--> The combined dataset contains 186,850 records and 6 columns.
 ---
 
 ## ANALYZE
